@@ -1,12 +1,51 @@
-body{
-    background: #FFFFFF;
-    width: 360px;
-    margin: 0 auto;
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Nunito"),
+    url("/fonts/static/Nunito-Light.ttf") format("ttf"),
+    url("/fonts/Nunito-VariableFont_wght.ttf") format("ttf");
 }
 
-// This applies from 600px onwards
-@media (min-width: 600px) {
-  body {
-    background: green;
-  }
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(font-family: "SF Pro Display"),
+    url("/fonts/SFPRODISPLAYREGULAR.OTF") format("OTF"),
+
+}
+
+
+body {
+  font-family: "SF Pro Display", "Arial", sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 15px;
+  background: #12125C;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.navigation-list{
+  list-style-type: none;
+}
+.navigation ul li a {
+  display: inline-block;
+  padding: 12px;
+  /* Добавьте ниже свои пользовательские стили, чтобы изменить отображение ссылок */
+  color: #DAE1E7;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+.active{
+  height: 25px;
+  width: 135px;
+  display:block;
+  text-decoration: none;
+}
+.logo{
+  display: flexbox;
 }
