@@ -1,9 +1,17 @@
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+// function addOpenClass(elementId){
+//   var element=document.getElementById(elementId);
+//   element.style= "display: block";
+// }
+// function AddOpenClassToAllIcons(){
+//   addOpenClass('navigation');
+// }
+
+// var sentBtn = document.getElementById('navbar-toggler');
+
+// sentBtn.addEventListener('click', AddOpenClassToAllIcons);
+$(".navbar-toggler").on("click", function() {
+ 
+  $(".navigation").toggle();
+ // $(".navbar-toggler").css('backgroundImage', 'url("../img/btn_close.png")');
+  $(".navbar-toggler").css('backgroundImage', 'url("../img/btn.png")');
+});
