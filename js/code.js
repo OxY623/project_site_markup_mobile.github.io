@@ -12,6 +12,7 @@
 $(".navbar-toggler").on("click", function() {
  
   $(".navigation").toggle();
+
  // $(".navbar-toggler").css('backgroundImage', 'url("../img/btn_close.png")');
-  $(".navbar-toggler").css('backgroundImage', 'url("../img/btn.png")');
+ // $(".navbar-toggler").css('backgroundImage', 'url("../img/btn.png")');
 });
