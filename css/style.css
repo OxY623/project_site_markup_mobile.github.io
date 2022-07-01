@@ -477,9 +477,13 @@ p {
 .PlayToErn, .Roadmap {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+
   justify-content: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-item {
@@ -659,7 +663,7 @@ color: #FFFFFF;
   position: relative;
 width: 12px;
 height: 12px;
-left:-5px;
+left:-167px;
 border-radius: 50%;
 background: #FF0000;
 border: 2px solid rgba(255, 255, 255, 0.5);
@@ -674,8 +678,8 @@ border: 2px solid rgba(255, 255, 255, 0.5);
   width: 351px;
 height: 1px;
   position: relative;
-  top: 137px;
-  left: 0px;
+  top: 135px;
+  left: 8px;
   z-index: 0;
   background-color: #e21313;
   -webkit-transform: rotate(90deg);
@@ -688,4 +692,5 @@ height: 1px;
   -ms-transform-origin: 0% 50%;
   -o-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
+  border: 0px solid rgba(255, 255, 255, 0.5);
 }
