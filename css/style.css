@@ -666,7 +666,7 @@ height: 12px;
 left:-167px;
 border-radius: 50%;
 background: #FF0000;
-border: 2px solid rgba(255, 255, 255, 0.5);
+border: 2px solid rgba(213, 16, 16, 0.5);
 }
 .pointA{
   top:150px;
@@ -678,7 +678,7 @@ border: 2px solid rgba(255, 255, 255, 0.5);
   width: 351px;
 height: 1px;
   position: relative;
-  top: 135px;
+  top: 137px;
   left: 8px;
   z-index: 0;
   background-color: #e21313;
