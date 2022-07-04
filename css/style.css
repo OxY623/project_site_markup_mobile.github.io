@@ -474,7 +474,7 @@ p {
   opacity: 0.3;
 }
 
-.PlayToErn, .Roadmap {
+.PlayToErn, .Roadmap,.team_partner {
   display: flex;
   flex-direction: column;
 
@@ -700,3 +700,7 @@ height: 1px;
 .inner-footer-img{
   margin-top: 70px;
 }
+.team_partner{
+  text-align: center;
+}
+  
