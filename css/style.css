@@ -474,7 +474,9 @@ p {
   opacity: 0.3;
 }
 
-.PlayToErn, .Roadmap,.team_partner {
+.PlayToErn,
+.Roadmap,
+.team_partner {
   display: flex;
   flex-direction: column;
 
@@ -594,17 +596,19 @@ p {
   color: #FFFFFF;
   opacity: 0.8;
 }
-.date-list{
-  list-style-type: none; 
-	counter-reset: num;
+
+.date-list {
+  list-style-type: none;
+  counter-reset: num;
   padding: 0;
   margin: 0;
   list-style: none;
 
 }
-.date-list-item{
+
+.date-list-item {
   width: 329px;
-  position: relative;	
+  position: relative;
   margin-left: 0px !important;
   margin: 0 0 0 10px;
 
@@ -613,73 +617,82 @@ p {
   text-align: left;
 
 
-background: rgba(56, 77, 112, 0.2);
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 30px;
-padding-bottom: 35px;
-margin-top: 25px;;
+  background: rgba(56, 77, 112, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding-bottom: 35px;
+  margin-top: 25px;
+  ;
 }
-.date-list-item:before {
-	content: counter(num) ; 
-	counter-increment: num;
-	display: inline-block;	
-	width: 97px;
-height: 100px;
-text-align: center;
-position: relative;
 
-align-content: center;
-background: #384D70;
-opacity: 0.2;
-border-radius: 30px;
-font-weight: 700;
-font-size: 65px;
-line-height: 78px;
-margin:35px;
-color: #FFFFFF;
-opacity: 0.5;
-padding-top:20px;
-padding-bottom: 0;
+.date-list-item:before {
+  content: counter(num);
+  counter-increment: num;
+  display: inline-block;
+  width: 97px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+
+  align-content: center;
+  background: #384D70;
+  opacity: 0.2;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 78px;
+  margin: 35px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  padding-top: 20px;
+  padding-bottom: 0;
 }
-.list-item{
+
+.list-item {
   padding-left: 35px;
   font-weight: 500;
-font-size: 30px;
-line-height: 36px;
+  font-size: 30px;
+  line-height: 36px;
 
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
+
 .list-item ul {
   font-weight: 400;
-font-size: 21px;
-line-height: 25px;
+  font-size: 21px;
+  line-height: 25px;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
-.list-title{
+
+.list-title {
   padding-left: 20px;
 }
-.point{
+
+.point {
   position: relative;
-width: 12px;
-height: 12px;
-left:-167px;
-border-radius: 50%;
-background: #FF0000;
-border: 2px solid rgba(213, 16, 16, 0.5);
+  width: 12px;
+  height: 12px;
+  left: -167px;
+  border-radius: 50%;
+  background: #FF0000;
+  border: 2px solid rgba(213, 16, 16, 0.5);
 }
-.pointA{
-  top:150px;
+
+.pointA {
+  top: 150px;
 }
-.pointB{
-  top:500px;
+
+.pointB {
+  top: 500px;
 }
-.line{
+
+.line {
   width: 351px;
-height: 1px;
+  height: 1px;
   position: relative;
   top: 137px;
   left: 9px;
@@ -697,10 +710,115 @@ height: 1px;
   transform-origin: 0% 50%;
   border: 0px solid rgba(255, 255, 255, 0.5);
 }
-.inner-footer-img{
+
+.inner-footer-img {
   margin-top: 70px;
 }
-.team_partner{
+
+.team_partner {
   text-align: center;
 }
+
+/* Slider*/
+.team-title {
+  margin-bottom: 70px;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  width: 330px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.slider .slides {
+  position: relative;
+  transition: 1s;
+  display: flex;
+}
+
+.slide {
+  width: 330px;
+  height: 360px;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  display: block;
+  float: left;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.name {
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  padding: 0;
+}
+
+.profession {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  margin-top: 2px;
+  padding: 0;
+  color: #7e7a7a;
+  opacity: 0.6;
+}
+
+.slider .next {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color:  #162344;;
+  right: -30px;
+  top: 120px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slider .prev {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color:  #162344;;
+  left: -30px;
+  top: 120px;
+  z-index: 1;
+  cursor: pointer;
+}
+body .slider .navigation {
+  position:relative;
+  width:100%;
+  bottom:-20px;
+  left:0;
+  z-index:1;
+
+  cursor:pointer;
+}
+.slider .navigation .dot {
+   display: inline-block;
+   width: 16px;
+  height: 16px;
+   background: #666666;
+   cursor: pointer;
+   border-radius: 16px;
+   margin: 0 20px;
+   border: 1px solid #666666;
   
+}
+body .slider .navigation .active {
+  background: rgb(241, 10, 10);
+  
+}
