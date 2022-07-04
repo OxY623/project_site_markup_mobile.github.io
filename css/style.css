@@ -659,6 +659,9 @@ line-height: 25px;
 color: #FFFFFF;
 
 }
+.list-title{
+  padding-left: 20px;
+}
 .point{
   position: relative;
 width: 12px;
@@ -679,7 +682,7 @@ border: 2px solid rgba(213, 16, 16, 0.5);
 height: 1px;
   position: relative;
   top: 137px;
-  left: 8px;
+  left: 9px;
   z-index: 0;
   background-color: #e21313;
   -webkit-transform: rotate(90deg);
@@ -693,4 +696,7 @@ height: 1px;
   -o-transform-origin: 0% 50%;
   transform-origin: 0% 50%;
   border: 0px solid rgba(255, 255, 255, 0.5);
+}
+.inner-footer-img{
+  margin-top: 70px;
 }
